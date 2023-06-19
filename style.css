@@ -1,0 +1,1566 @@
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+    
+
+}
+
+
+
+.slider{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    
+    
+    
+    
+}
+
+
+
+.slider figure div{
+    float: left;
+    width: 20%;
+    
+}
+
+
+.slider figure img{
+    
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    
+    
+    
+}
+
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: animate 35s infinite;
+    
+    
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.logo-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-self: center;
+    
+
+}
+
+.logo-container img{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 1160px;
+   
+    
+}
+
+
+h2{
+    font-size: 3rem;
+    color: #3498db;
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+    text-align: center;
+   
+    
+}
+
+
+h4{
+    font-size: 2rem;
+    color: #3498db;
+    position: absolute;
+    top: 220px;
+    left: 999px;
+    text-align: center;
+   
+    
+}
+
+
+h6{
+    position: absolute;
+    bottom:-25;
+    left: 5px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.3);
+    text-transform: lowercase;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+h5{
+    position: absolute;
+    bottom: 20%;
+    left: 43%;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+   
+
+}
+
+
+
+.social-icons {
+    position: absolute;
+    bottom: 10px;
+    left: 1170px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    
+}
+.social-icons a{
+    font-size: 2rem;
+    margin-right: 20px;
+    color: rgb(238, 228, 248);
+    
+    
+}
+
+.social-icons a:hover{
+  color:#3995D2;
+  
+
+}
+
+.serach-bar{
+    width: 100%;
+    max-width: 400px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+
+.serach-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 20px 20px;
+    font-size: 15px;
+    color: #cac7ff;
+
+}
+::placeholder{
+    color: #f2f1ff;
+}
+
+
+
+.serach-bar button img{
+    width: 25px;
+
+
+}
+
+.serach-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #3498db;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.countdown{
+    display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.big-text{
+    font-size: 5rem;
+}
+
+.countdown > div{
+    margin: 0 2rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0px 15px;
+    border-radius: 50%;
+   
+    box-sizing: border-box;
+    color: #fff;
+    min-width:250px;
+    min-height: 250px;
+}
+
+span{
+    font-size: 1.3rem;
+    position: absolute;
+    margin: -50px -30px;
+    color: #3498db;
+}
+
+
+
+.logo{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 3%;
+    left: 42%;
+}
+
+
+h2{
+    font-size: 3rem;
+    position: absolute;
+    top: 12%;
+    left: 43%;
+    color: #3498db;
+}
+
+
+
+
+h4{
+    font-size: 1.5rem;
+    color: #3498db;
+    position: absolute;
+    top: 20%;
+    left: 41%;
+   
+}
+
+
+
+
+
+
+@keyframes animate
+{
+    0%{left: 0%;}
+    10%{left: 0%;}
+    12%{left: -100%;}
+    22%{left: -100%;}
+    24%{left: -200%;}
+    34%{left: -200%;}
+    36%{left: -300%;}
+    46%{left: -300%;}
+    48%{left: -400%;}
+    58%{left: -400%;}
+    60%{left: -300%;}
+    70%{left: -300%;}
+    72%{left: -200%;}
+    82%{left: -200%;}
+    84%{left: -100%;}
+    94%{left: -100%;}
+    96%{left: 0%;}
+    
+
+}
+
+
+
+
+@media (max-width:540px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: relative;
+       
+        width: 100%;
+       height: 170vh;
+        overflow-y: scroll;
+        
+        
+    }
+  
+   .slider{
+   
+    height: 170vh;
+    
+}
+
+.slider figure div{
+    float: left;
+    width: 20%;
+   
+}
+
+
+.slider figure img{
+    
+    
+    width: auto ;
+    height: 170vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.slider figure{
+    
+    width: 500%;
+    margin: 0;
+    animation: animate 35s infinite;
+    background-position: center;
+    
+}
+.slid img{
+    background-position: center;
+    background-size: auto;
+}
+.content{
+    width: 100%;
+    height: 170vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    
+    
+}
+
+
+
+.social-icons {
+    position: absolute;
+    bottom: 5px;
+    left:60%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    
+}
+.social-icons a{
+    font-size: 1rem;
+    margin-right: 7px;
+    color: rgb(238, 228, 248);
+    
+    
+}
+
+.social-icons a:hover{
+  color:#3995D2;
+  
+
+}
+
+
+.serach-bar{
+    width: auto;
+   
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+
+
+.serach-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 20px 20px;
+    font-size: 15px;
+    color: #cac7ff;
+
+}
+::placeholder{
+    color: #f2f1ff;
+}
+
+
+
+.serach-bar button img{
+    width: 25px;
+
+
+}
+
+.serach-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #3498db;
+    cursor: pointer;
+}
+
+
+.countdown{
+    display: flex;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+
+}
+
+.big-text{
+    font-size: 3rem;
+}
+
+.countdown > div{
+    margin: 0 2rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0px 15px;
+    border-radius: 50%;
+   
+    box-sizing: border-box;
+    color: #fff;
+    min-width:150px;
+    min-height: 150px;
+}
+
+span{
+    font-size: 1.3rem;
+    position: absolute;
+    margin: -50px -35px;
+    color: #3498db;
+}
+
+.pp1,.pp2{
+    position: absolute;
+    margin: -50px -25px;
+    
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 8%;
+    left: 30%;
+}
+
+
+h2{
+    font-size: 2rem;
+    position: absolute;
+    top: 12%;
+    left: 18%;
+    color: #3498db;
+}
+
+
+
+h4{
+    font-size: 1rem;
+    color: #3498db;
+    position: absolute;
+    top: 17%;
+    left: 11%;
+   
+   
+}
+
+h5{
+    position: absolute;
+    bottom: 5%;
+    left: 12%;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    color: #fff;
+    text-transform: uppercase;
+   
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width:992px){
+
+    .countdown > div{
+        margin: 0 1rem;
+
+    }
+    
+}
+
+
+
+@media (max-width:992px){
+
+    .countdown{
+        flex-wrap: wrap;
+        
+    }
+    .countdown > div{
+        margin: 1rem auto;
+        max-width: 150px;
+    }
+    
+}
+
+
+
+
+
+
+@media (width:820px){
+    
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: relative;
+       
+        width: 100%;
+       height: 170vh;
+        overflow-y: scroll;
+        
+        
+    }
+  
+   .slider{
+   
+    height: 170vh;
+    
+}
+
+.slider figure div{
+    float: left;
+    width: 20%;
+   
+}
+
+
+.slider figure img{
+    
+    
+    width: auto ;
+    height: 170vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.slider figure{
+    
+    width: 500%;
+    margin: 0;
+    animation: animate 35s infinite;
+    background-position: center;
+    
+}
+.slid img{
+    background-position: center;
+    background-size: auto;
+}
+.content{
+    width: 100%;
+    height: 170vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    
+    
+}
+
+
+
+.social-icons {
+    position: absolute;
+    bottom: 5px;
+    left: 69%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    
+}
+.social-icons a{
+    font-size: 2rem;
+    
+    color: rgb(238, 228, 248);
+    
+    
+}
+
+.social-icons a:hover{
+  color:#3995D2;
+  
+
+}
+
+
+.serach-bar{
+    width: auto;
+   
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+
+
+.serach-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 20px 20px;
+    font-size: 15px;
+    color: #cac7ff;
+
+}
+::placeholder{
+    color: #f2f1ff;
+}
+
+
+
+.serach-bar button img{
+    width: 25px;
+
+
+}
+
+.serach-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #3498db;
+    cursor: pointer;
+}
+
+
+.countdown{
+    display: flex;
+  position: absolute;
+  top: 55%;
+  left: 58%;
+  transform: translate(-50%,-50%);
+  
+
+}
+
+.big-text{
+    font-size: 3rem;
+}
+
+.countdown > div{
+    margin: 1rem 2rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0px 15px;
+    border-radius: 50%;
+   
+    box-sizing: border-box;
+    color: #fff;
+    min-width:170px;
+    min-height: 170px;
+}
+
+span{
+    font-size: 1.3rem;
+    position: absolute;
+    margin: -50px -35px;
+    color: #3498db;
+}
+
+.pp1,.pp2{
+    position: absolute;
+    margin: -50px -25px;
+    
+}
+
+.logo{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 8%;
+    left: 35%;
+}
+
+
+h2{
+    font-size: 3rem;
+    position: absolute;
+    top: 17%;
+    left: 30%;
+    color: #3498db;
+}
+
+
+
+h4{
+    font-size: 1.5rem;
+    color: #3498db;
+    position: absolute;
+    top: 23%;
+    left: 25%;
+   
+   
+}
+
+h5{
+    position: absolute;
+    bottom: 16%;
+    left: 19%;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    color: #fff;
+    text-transform: uppercase;
+   
+
+}
+
+
+
+
+}
+
+
+@media (width:768px){
+    
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: relative;
+       
+        width: 100%;
+       height: 170vh;
+        overflow-y: scroll;
+        
+        
+    }
+  
+   .slider{
+   
+    height: 170vh;
+    
+}
+
+.slider figure div{
+    float: left;
+    width: 20%;
+   
+}
+
+
+.slider figure img{
+    
+    
+    width: auto ;
+    height: 170vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.slider figure{
+    
+    width: 500%;
+    margin: 0;
+    animation: animate 35s infinite;
+    background-position: center;
+    
+}
+.slid img{
+    background-position: center;
+    background-size: auto;
+}
+.content{
+    width: 100%;
+    height: 170vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    
+    
+}
+
+
+
+.social-icons {
+    position: absolute;
+    bottom: 5px;
+    left: 67%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    
+}
+.social-icons a{
+    font-size: 2rem;
+    
+    color: rgb(238, 228, 248);
+    
+    
+}
+
+.social-icons a:hover{
+  color:#3995D2;
+  
+
+}
+
+
+.serach-bar{
+    width: auto;
+   
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+
+
+.serach-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 20px 20px;
+    font-size: 15px;
+    color: #cac7ff;
+
+}
+::placeholder{
+    color: #f2f1ff;
+}
+
+
+
+.serach-bar button img{
+    width: 25px;
+
+
+}
+
+.serach-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #3498db;
+    cursor: pointer;
+}
+
+
+.countdown{
+    display: flex;
+  position: absolute;
+  top: 55%;
+  left: 58%;
+  transform: translate(-50%,-50%);
+  
+
+}
+
+.big-text{
+    font-size: 3rem;
+}
+
+.countdown > div{
+    margin: 1rem 2rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0px 15px;
+    border-radius: 50%;
+   
+    box-sizing: border-box;
+    color: #fff;
+    min-width:170px;
+    min-height: 170px;
+}
+
+span{
+    font-size: 1.3rem;
+    position: absolute;
+    margin: -50px -35px;
+    color: #3498db;
+}
+
+.pp1,.pp2{
+    position: absolute;
+    margin: -50px -25px;
+    
+}
+
+.logo{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 8%;
+    left: 35%;
+}
+
+
+h2{
+    font-size: 3rem;
+    position: absolute;
+    top: 17%;
+    left: 30%;
+    color: #3498db;
+}
+
+
+
+h4{
+    font-size: 1.5rem;
+    color: #3498db;
+    position: absolute;
+    top: 23%;
+    left: 25%;
+   
+   
+}
+
+
+h5{
+    position: absolute;
+    bottom: 16%;
+    left: 19%;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    color: #fff;
+    text-transform: uppercase;
+   
+
+}
+
+
+
+
+
+}
+
+
+@media (width:375px){
+    h5{
+        position: absolute;
+        bottom: 2%;
+        left: 12%;
+        font-size: 0.8rem;
+        white-space: nowrap;
+        color: #fff;
+        text-transform: uppercase;
+       
+    
+    }
+    
+    
+}
+
+
+@media (width:1024px){
+    
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: relative;
+       
+        width: 100%;
+       height: 170vh;
+        overflow-y: scroll;
+        
+        
+    }
+  
+   .slider{
+   
+    height: 170vh;
+    
+}
+
+.slider figure div{
+    float: left;
+    width: 20%;
+   
+}
+
+
+.slider figure img{
+    
+    
+    width: auto ;
+    height: 170vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.slider figure{
+    
+    width: 500%;
+    margin: 0;
+    animation: animate 35s infinite;
+    background-position: center;
+    
+}
+.slid img{
+    background-position: center;
+    background-size: auto;
+}
+.content{
+    width: 100%;
+    height: 170vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    
+    
+}
+
+
+
+.social-icons {
+    position: absolute;
+    bottom: 5px;
+    left: 67%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    
+}
+.social-icons a{
+    font-size: 2rem;
+    
+    color: rgb(238, 228, 248);
+    
+    
+}
+
+.social-icons a:hover{
+  color:#3995D2;
+  
+
+}
+
+
+.serach-bar{
+    width: auto;
+   
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+
+
+.serach-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 20px 20px;
+    font-size: 15px;
+    color: #cac7ff;
+
+}
+::placeholder{
+    color: #f2f1ff;
+}
+
+
+
+.serach-bar button img{
+    width: 25px;
+
+
+}
+
+.serach-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #3498db;
+    cursor: pointer;
+}
+
+
+.countdown{
+    display: flex;
+  position: absolute;
+  top: 55%;
+  left: 51%;
+  transform: translate(-50%,-50%);
+  
+
+}
+
+.big-text{
+    font-size: 3rem;
+}
+
+.countdown > div{
+    margin: 1rem 2rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0px 15px;
+    border-radius: 50%;
+   
+    box-sizing: border-box;
+    color: #fff;
+    min-width:170px;
+    min-height: 170px;
+}
+
+span{
+    font-size: 1.3rem;
+    position: absolute;
+    margin: -50px -35px;
+    color: #3498db;
+}
+
+.pp1,.pp2{
+    position: absolute;
+    margin: -50px -25px;
+    
+}
+
+.logo{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 8%;
+    left: 35%;
+}
+
+
+h2{
+    font-size: 3rem;
+    position: absolute;
+    top: 21%;
+    left: 32%;
+    color: #3498db;
+}
+
+
+
+h4{
+    font-size: 1.5rem;
+    color: #3498db;
+    position: absolute;
+    top: 28%;
+    left: 27%;
+   
+   
+}
+
+
+h5{
+    position: absolute;
+    bottom: 20%;
+    left: 23%;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    color: #fff;
+    text-transform: uppercase;
+   
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (width:912px){
+    
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: relative;
+       
+        width: 100%;
+       height: 170vh;
+        overflow-y: scroll;
+        
+        
+    }
+  
+   .slider{
+   
+    height: 170vh;
+    
+}
+
+.slider figure div{
+    float: left;
+    width: 20%;
+   
+}
+
+
+.slider figure img{
+    
+    
+    width: auto ;
+    height: 170vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.slider figure{
+    
+    width: 500%;
+    margin: 0;
+    animation: animate 35s infinite;
+    background-position: center;
+    
+}
+.slid img{
+    background-position: center;
+    background-size: auto;
+}
+.content{
+    width: 100%;
+    height: 170vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    
+    
+}
+
+
+
+.social-icons {
+    position: absolute;
+    bottom: 85px;
+    left: 72%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    
+}
+.social-icons a{
+    font-size: 2rem;
+    
+    color: rgb(238, 228, 248);
+    
+    
+}
+
+.social-icons a:hover{
+  color:#3995D2;
+  
+
+}
+
+
+.serach-bar{
+    width: auto;
+   
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+
+
+.serach-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 20px 20px;
+    font-size: 15px;
+    color: #cac7ff;
+
+}
+::placeholder{
+    color: #f2f1ff;
+}
+
+
+
+.serach-bar button img{
+    width: 25px;
+
+
+}
+
+.serach-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background: #3498db;
+    cursor: pointer;
+}
+
+
+.countdown{
+    display: flex;
+  position: absolute;
+  top: 55%;
+  left: 58%;
+  transform: translate(-50%,-50%);
+  
+
+}
+
+.big-text{
+    font-size: 3rem;
+}
+
+.countdown > div{
+    margin: 1rem 2rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0px 15px;
+    border-radius: 50%;
+   
+    box-sizing: border-box;
+    color: #fff;
+    min-width:170px;
+    min-height: 170px;
+}
+
+span{
+    font-size: 1.3rem;
+    position: absolute;
+    margin: -50px -35px;
+    color: #3498db;
+}
+
+.pp1,.pp2{
+    position: absolute;
+    margin: -50px -25px;
+    
+}
+
+.logo{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 11%;
+    left: 35%;
+}
+
+
+h2{
+    font-size: 3rem;
+    position: absolute;
+    top: 23%;
+    left: 32%;
+    color: #3498db;
+}
+
+
+
+h4{
+    font-size: 2rem;
+    color: #3498db;
+    position: absolute;
+    top: 28%;
+    left: 21%;
+   
+   
+}
+
+h5{
+    position: absolute;
+    bottom: 20%;
+    left: 17%;
+    font-size: 2rem;
+    white-space: nowrap;
+    color: #fff;
+    text-transform: uppercase;
+   
+
+}
+
+
+
+
+
+
+}
+
+@media (min-width:1290px) and (max-width:1490px){
+    h2{
+        font-size: 3rem;
+        color: #3498db;
+        position: absolute;
+        top: 100px;
+        left: 40%;
+        text-align: center;
+       
+        
+    }
+    h4{
+        font-size: 2rem;
+        color: #3498db;
+        position: absolute;
+        top: 20%;
+        left: 32%;
+       
+       
+    }
+    
+    
+}
